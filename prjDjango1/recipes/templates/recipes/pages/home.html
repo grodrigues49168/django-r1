@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
 {% include 'recipes/partials/head.html' %}
-<body>
-    <header class="main-header-container">
-        <div class="main-header-container">
-            <h1>
-                <a href="/"> 
-                    <i class="fa-solid fa-cookie">
+    <body>
+        {% include 'recipes/partials/head.html' %}
 
-                    </i> 
-                    {{ name }}' Home
-                </a>
-            </h1>
+        <div class="search-container">
+            <div class="container">
+                <form action="" class="search-form">
+                    <input type="search" class="search-input" name="searc">
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+
+                </form>
+
+            </div>
 
         </div>
-    
-
-    </header>
-    
-</body>
+    </body>
 </html>
