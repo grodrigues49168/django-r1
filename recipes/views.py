@@ -11,7 +11,7 @@ from django.http import HttpResponse
 #      return render(request, 'home.html')
 
 def home(request):
-    return render(request,'recipes/pages/home.html', context={'name': 'Fabiana Souza'})
+    return render(request,'recipes/pages/home.html', context={'name': 'Gabriel Rodrigues'})
 
 # def home(request):
 #     return render(request,'recipes/pages/home.html')
