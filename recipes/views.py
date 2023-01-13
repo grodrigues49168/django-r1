@@ -24,7 +24,7 @@ def home(request):
 #     return HttpResponse('home.html')
 
 def sobre(request):
-    return HttpResponse('<h1>SOBRE - Django</h1>')
+    return render(request,'/recipes/partials/sobre.html')
 
 def contato(request):
     return HttpResponse('<h1>CONTATO - Django</h1>')

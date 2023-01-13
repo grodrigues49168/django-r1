@@ -5,6 +5,6 @@ from recipes.views import home, sobre, contato
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path('', home),
-    path('sobre/', sobre),
+    path('', sobre),
     path('contato/', contato),
 ]
