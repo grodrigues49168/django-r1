@@ -6,7 +6,7 @@ from django.http import HttpResponse
 # HTTP RESPONSE
 
 def home(request):
-    return render(request, 'recipes/pages/home.html', context={'name': 'Rafael Ribeiro'})
+    return render(request, 'recipes/pages/home.html', context={'name': 'Gabriel Rodrigues'})
 
 def sobre(request):
     return render(request,'sobre.html')
@@ -15,5 +15,5 @@ def contato(request):
     return render(request,'contato.html')
 
 def receitas(request):
-    return render(request, 'recipes/pages/receitas.html', context={'name': 'Rafael Ribeiro'})
+    return render(request, 'recipes/pages/receitas.html', context={'name': 'Gabriel Rodrigues'})
 # Create your views here.
