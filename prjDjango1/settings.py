@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'HmXDlkbaYdqcdZrxLmrhWoEuXM7WYpz272eC0MdLmPXEYLMmt8hddR3RwgGP'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','https://newdjango-r1.azurewebsites.net', 'newdjango-r1.azurewebsites.net']
+#ALLOWED_HOSTS = ['localhost','https://newdjango-r1.azurewebsites.net', 'newdjango-r1.azurewebsites.net']
 # Application definition
 
 INSTALLED_APPS = [
