@@ -26,8 +26,6 @@ SECRET_KEY = 'jtnbhQusXhXiKru66hoSi4sL5kg5WjQ8wHHionl2a5CNWDsg9jx0yYdaLpkj'
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost','https://djago-r1.azurewebsites.net', 'djago-r1.azurewebsites.net']
-
-, 
 # Application definition
 
 INSTALLED_APPS = [
