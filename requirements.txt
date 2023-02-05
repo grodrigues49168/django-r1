@@ -5,13 +5,10 @@ contourpy==1.0.6
 cycler==0.11.0
 distlib==0.3.4
 Django==4.0.3
-Faker==16.6.1
 filelock==3.6.0
 fonttools==4.38.0
 idna==3.4
 kiwisolver==1.4.4
-matplotlib==3.6.2
-numpy==1.24.1
 packaging==22.0
 Pillow==9.3.0
 platformdirs==2.5.1
@@ -22,5 +19,3 @@ six==1.16.0
 sqlparse==0.4.2
 tzdata==2022.1
 urllib3==1.26.12
-virtualenv==20.14.0
-virtualenvwrapper-win==1.2.7
