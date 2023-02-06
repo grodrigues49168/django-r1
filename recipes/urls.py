@@ -1,13 +1,18 @@
+from sys import path_hooks
 from django.urls import path
-from recipes.views import home, sobre, contatos, contatos_2, contatos_3, receitas, receitas_2, receitas_3
+#from recipes.views import home, sobre, contato
+from recipes.views import receita, home, contato, contato_2, contato_3, receita_2, receita_3
+from . import views
 
+# HTTP Request
 urlpatterns = [
-    path('', home),
-    path('sobre/', sobre),
-    path('contatos/', contatos, name='contatos'),
-    path('contatos_2/', contatos_2, name='contatos_2'),
-    path('contatos_3/', contatos_3, name='contatos_3'),
-    path('receitas/', receitas, name='receitas'),
-    path('receitas_2/', receitas_2, name='receitas_2'),
-    path('receitas_3/', receitas_3, name='receitas_3')
-]
+    path('', views.home),
+    path('recipe/<int:id>/', views.recipe),
+    path('receita/', receita, name='receita'),
+    path('home/', home, name='home'),
+    path('contato/', contato, name='contato'),
+    path('contato_2/', contato_2, name='contato_2'),
+    path('contato_3/', contato_3, name='contato_3'),
+    path('receita_2/', receita_2, name='receita_2'),
+    path('receita_3/', receita_3, name='receita_3')
+]   
